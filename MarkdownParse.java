@@ -23,6 +23,11 @@ public class MarkdownParse {
                     break;
                 }
             }
+            if (closeParen == markdown.length()-4){
+                if (openBracket==0){
+                    break;
+                }
+            }
 
         }
         return toReturn;

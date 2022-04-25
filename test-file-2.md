@@ -1,2 +1,1 @@
-[link1](https://something.com)
-[link2](https://something(1).com)
+[link2](https://something.com)(1)
