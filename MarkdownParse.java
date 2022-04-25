@@ -28,7 +28,10 @@ public class MarkdownParse {
                     break;
                 }
             }
-
+            if (closeParen != markdown.length()-1){
+                break;
+            }
+            
         }
         return toReturn;
     }
