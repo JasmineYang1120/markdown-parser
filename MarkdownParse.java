@@ -31,7 +31,6 @@ public class MarkdownParse {
             if (closeParen != markdown.length()-1){
                 break;
             }
-            
         }
         return toReturn;
     }
